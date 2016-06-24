@@ -33,6 +33,8 @@
                 android:textColor="@color/color_white"
                 android:enabled="false"
                 android:focusable="false"
+                android:textSize="8pt"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Рейтинг"/>
 
         </LinearLayout>
@@ -62,6 +64,8 @@
                 android:textColor="@color/color_white"
                 android:enabled="false"
                 android:focusable="false"
+                android:textSize="8pt"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Написано строк кода"/>
 
         </LinearLayout>
@@ -91,6 +95,8 @@
                 android:textColor="@color/color_white"
                 android:enabled="false"
                 android:focusable="false"
+                android:textSize="8pt"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Проектов"/>
         </LinearLayout>
     </LinearLayout>
@@ -128,6 +134,7 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/grey"
                     android:focusable="false"
+                    android:fontFamily="sans-serif-condensed"
                     android:hint="Мобильный"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -175,6 +182,7 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/grey"
                     android:focusable="false"
+                    android:fontFamily="sans-serif-condensed"
                     android:hint="E-mail"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -221,6 +229,7 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/grey"
                     android:focusable="false"
+                    android:fontFamily="sans-serif-condensed"
                     android:hint="Профиль в VK"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -267,6 +276,7 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/grey"
                     android:focusable="false"
+                    android:fontFamily="sans-serif-condensed"
                     android:hint="Репозиторий"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -312,6 +322,7 @@
                     android:enabled="false"
                     android:textColor="@color/black"
                     android:textColorHint="@color/grey"
+                    android:fontFamily="sans-serif-condensed"
                     android:focusable="false"
                     android:hint="О себе"/>
             </android.support.design.widget.TextInputLayout>
