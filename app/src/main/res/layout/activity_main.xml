@@ -33,7 +33,7 @@
                 android:textColor="@color/color_white"
                 android:enabled="false"
                 android:focusable="false"
-                android:textSize="8pt"
+                android:textSize="7pt"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Рейтинг"/>
 
@@ -64,7 +64,7 @@
                 android:textColor="@color/color_white"
                 android:enabled="false"
                 android:focusable="false"
-                android:textSize="8pt"
+                android:textSize="7pt"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Написано строк кода"/>
 
@@ -95,7 +95,7 @@
                 android:textColor="@color/color_white"
                 android:enabled="false"
                 android:focusable="false"
-                android:textSize="8pt"
+                android:textSize="7pt"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Проектов"/>
         </LinearLayout>
