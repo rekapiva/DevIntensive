@@ -1,6 +1,4 @@
 <resources>
-    <resources>
-        <string name="app_name">Михаил Комаров</string>
-        <string name="hello_devintensive">Hello DevIntensive!</string>
-    </resources>
+    <string name="app_name">DevIntensive</string>
+    <string name="hello_devintensive">Hello DevIntensive!</string>
 </resources>
