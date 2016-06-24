@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.activities.MainActivity"
-    android:orientation="vertical">
-    <!-- header 777-->
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".ui.activities.MainActivity"
+                android:orientation="vertical">
+    <!-- header -->
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -106,7 +106,7 @@
         <ImageView
             style="@style/icon.left"
             android:src="@drawable/ic_call_black_24dp"
-        />
+            />
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="@dimen/size_big_72"
@@ -122,19 +122,19 @@
                     android:id="@+id/phone_et"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                android:inputType="phone"
-                android:text="+792060014787"
+                    android:inputType="phone"
+                    android:text="+792060014787"
                     android:enabled="false"
                     android:textColor="@color/black"
                     android:textColorHint="@color/grey"
                     android:focusable="false"
-                android:hint="Мобильный"/>
+                    android:hint="Мобильный"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
         <ImageView
             style="@style/icon.right"
             android:src="@drawable/ic_phone_in_talk_black_24dp"
-        />
+            />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
