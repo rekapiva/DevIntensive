@@ -23,17 +23,24 @@
                 android:gravity="center"
                 android:textColor="@color/color_white"
                 android:text="5"
+                android:enabled="false"
+                android:focusable="false"
                 android:textSize="14pt" />
             <EditText
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="@color/color_white"
-
+                android:enabled="false"
+                android:focusable="false"
                 android:text="Рейтинг"/>
 
         </LinearLayout>
-
+        <View
+            android:layout_width="@dimen/line_size"
+            android:layout_height="match_parent"
+            android:background="@color/grey_light"
+            android:id="@+id/view"></View>
         <LinearLayout
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -45,15 +52,24 @@
                 android:gravity="center"
                 android:textColor="@color/color_white"
                 android:textSize="14pt"
+                android:enabled="false"
+                android:focusable="false"
                 android:text="5"/>
             <EditText
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="@color/color_white"
+                android:enabled="false"
+                android:focusable="false"
                 android:text="Написано строк кода"/>
 
         </LinearLayout>
+        <View
+            android:layout_width="@dimen/line_size"
+            android:layout_height="match_parent"
+            android:background="@color/grey_light"
+            android:id="@+id/view"></View>
         <LinearLayout
             android:layout_width="0dp"
             android:layout_weight="0.5"
@@ -65,14 +81,17 @@
                 android:gravity="center"
                 android:textColor="@color/color_white"
                 android:textSize="14pt"
+                android:enabled="false"
+                android:focusable="false"
                 android:text="5"/>
             <EditText
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="@color/color_white"
+                android:enabled="false"
+                android:focusable="false"
                 android:text="Проектов"/>
-
         </LinearLayout>
     </LinearLayout>
 
